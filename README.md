@@ -11,3 +11,8 @@ Check installation
 $which rustc
 $which cargo
 ```
+Running in Commandline M1
+```
+$rustc test.rs
+$./test
+```
