@@ -16,3 +16,8 @@ Running in Commandline M1
 $rustc test.rs
 $./test
 ```
+Creating library
+```
+$cd proj_dir
+$cargo new "library_name" --lib
+```
