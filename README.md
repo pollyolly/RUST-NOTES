@@ -16,8 +16,27 @@ Running in Commandline M1
 $rustc test.rs
 $./test
 ```
-Creating library
+Creating Rust library for Python
 ```
 $cd proj_dir
 $cargo new "library_name" --lib
+```
+```
+#Cargo.toml
+[package]
+name = "pyo3"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "calculate_pi"
+create-type = ["cdylib"]
+
+[dependencies]
+version = "0.14.4"
+features = ["extension-module"]
+```
+Then Run
+```
+$cargo build
 ```
