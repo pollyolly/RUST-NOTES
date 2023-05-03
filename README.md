@@ -38,5 +38,5 @@ features = ["extension-module"]
 ```
 Then Run
 ```
-$cargo build
+$cargo build --release
 ```
