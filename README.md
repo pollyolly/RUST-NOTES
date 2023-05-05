@@ -16,6 +16,10 @@ Running in Commandline M1
 $rustc test.rs
 $./test
 ```
+Creating Rust Binary Program
+```
+$cargo new sample_program --bin
+```
 Creating Rust library for Python
 ```
 $cd proj_dir
