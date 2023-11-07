@@ -19,6 +19,10 @@ Running in Commandline M1
 $rustc test.rs
 $./test
 ```
+Creating new Rust Project
+```vim
+$cargo new rust-jwt
+```
 Creating Rust Binary Program
 ```vim
 $cargo new sample_program --bin
