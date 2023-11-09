@@ -1,0 +1,1 @@
+warp::filter::and_then::AndThen<warp::filter::map::Map<impl warp::Filter + warp::filter::FilterBase<Extract = (HeaderMap,), Error = Infallible> + std::marker::Copy, [closure@src/auth.rs:49:10: 49:48]>, fn((Role, HeaderMap)) -> impl warp::Future<Output = std::result::Result<std::string::String, Rejection>> {authorize}>

@@ -1,0 +1,15 @@
+/Users/roco/Desktop/GitHub/RUST-NOTES/link-checker/target/debug/deps/markup5ever-762f0253c5fe12f3.rmeta: /Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/lib.rs /Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/data/mod.rs /Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/interface/mod.rs /Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/interface/tree_builder.rs /Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/serialize.rs /Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/util/buffer_queue.rs /Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/util/smallcharset.rs /Users/roco/Desktop/GitHub/RUST-NOTES/link-checker/target/debug/build/markup5ever-4c014b1fd8677c8b/out/generated.rs /Users/roco/Desktop/GitHub/RUST-NOTES/link-checker/target/debug/build/markup5ever-4c014b1fd8677c8b/out/named_entities.rs
+
+/Users/roco/Desktop/GitHub/RUST-NOTES/link-checker/target/debug/deps/markup5ever-762f0253c5fe12f3.d: /Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/lib.rs /Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/data/mod.rs /Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/interface/mod.rs /Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/interface/tree_builder.rs /Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/serialize.rs /Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/util/buffer_queue.rs /Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/util/smallcharset.rs /Users/roco/Desktop/GitHub/RUST-NOTES/link-checker/target/debug/build/markup5ever-4c014b1fd8677c8b/out/generated.rs /Users/roco/Desktop/GitHub/RUST-NOTES/link-checker/target/debug/build/markup5ever-4c014b1fd8677c8b/out/named_entities.rs
+
+/Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/lib.rs:
+/Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/data/mod.rs:
+/Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/interface/mod.rs:
+/Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/interface/tree_builder.rs:
+/Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/serialize.rs:
+/Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/util/buffer_queue.rs:
+/Users/roco/.cargo/registry/src/index.crates.io-6f17d22bba15001f/markup5ever-0.11.0/util/smallcharset.rs:
+/Users/roco/Desktop/GitHub/RUST-NOTES/link-checker/target/debug/build/markup5ever-4c014b1fd8677c8b/out/generated.rs:
+/Users/roco/Desktop/GitHub/RUST-NOTES/link-checker/target/debug/build/markup5ever-4c014b1fd8677c8b/out/named_entities.rs:
+
+# env-dep:OUT_DIR=/Users/roco/Desktop/GitHub/RUST-NOTES/link-checker/target/debug/build/markup5ever-4c014b1fd8677c8b/out
