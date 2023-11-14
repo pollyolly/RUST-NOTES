@@ -54,3 +54,5 @@ $cargo build --release
 ### Reference
 
 [Google Rust Tutorial Documentation](https://doc.rust-lang.org/book/title-page.html)
+
+[Rust Book](https://doc.rust-lang.org/1.30.0/book/first-edition/patterns.html)
