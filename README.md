@@ -56,3 +56,7 @@ $cargo build --release
 [Google Rust Tutorial Documentation](https://doc.rust-lang.org/book/title-page.html)
 
 [Rust Book](https://doc.rust-lang.org/1.30.0/book/first-edition/patterns.html)
+
+[Rust Async/Await Book](https://rust-lang.github.io/async-book/01_getting_started/01_chapter.html)
+
+[Tokio Runtime](https://tokio.rs/tokio/tutorial)
