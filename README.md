@@ -73,6 +73,8 @@ $cd rust-project/target/debug/rust-project-name
 $./rust-project-name
 ```
 ### Reference
+[Shuttle Rs Tutorials](https://docs.shuttle.rs/tutorials/websocket-chat-app-js)
+
 [Rust Lang Nursery](https://rust-lang-nursery.github.io/rust-cookbook/web/clients/requests.html)
 
 [Google Rust Tutorial Documentation](https://doc.rust-lang.org/book/title-page.html)
