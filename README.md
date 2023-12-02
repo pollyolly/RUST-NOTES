@@ -30,6 +30,7 @@ $cargo new sample_progra --bin
 $cargo run --bin server
 ```
 ```vim
+#Cargo.toml
 [package]
 name = "rust-grpc-chat-auth"
 version = "0.1.0"
