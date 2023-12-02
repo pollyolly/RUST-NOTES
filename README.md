@@ -64,8 +64,12 @@ create-type = ["cdylib"]
 $cargo clean
 $cargo build --release
 ```
-```
-Build Location: target/debug/rproject-name
+```vim
+//Build Location
+$cd rust-project/target/debug/rust-project-name
+
+//Execute The Project
+$./rust-project-name
 ```
 ### Reference
 
