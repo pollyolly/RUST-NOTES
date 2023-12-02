@@ -1,6 +1,7 @@
 use tokio::time;
 use std::time::Duration;
-use mouse_rs::{types::keys::Keys, Mouse};
+use mouse_rs::{Mouse};
+use rand::Rng;
 
 fn move_mouse(ctx: i32, cty: i32){
        let mouse = Mouse::new();
@@ -12,17 +13,28 @@ fn move_mouse(ctx: i32, cty: i32){
 }*/
 #[tokio::main]
 async fn main() {
-    let mut interval = time::interval(Duration::from_millis(1000));
-    let mut ctx = 500;
-    let mut cty = 500;
+    let _ = keepawake::Builder::new()
+        .display(true)
+        .idle(true)
+        .sleep(true)
+        .create();
+    let mut interval = time::interval(Duration::from_millis(50));
+    let mut ctx = 300;
+    let mut cty = 300;
+    let mut range = rand::thread_rng();
+    let randx: i32 = range.gen_range(300..600);
+    let randy: i32 = range.gen_range(300..600);
     //let mut wcty = 2;
     loop {
         interval.tick().await;
         move_mouse(ctx, cty);
-        interval.tick().await;
        //scroll_wheel(wcty);
-        ctx += 2;
-        cty -= 2;
+        ctx += 1;
+        cty -= 1;
         //wcty += 2;
+        if ctx == 600 {
+            ctx = randx;
+            cty = randy;
+        }
     }
 }
