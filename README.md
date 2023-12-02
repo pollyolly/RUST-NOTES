@@ -1,33 +1,50 @@
 # RUST-NOTES
 
-### Installation
-#### M1
-Install
+## M1 Installation
+### Install
 ```vim
 https://www.rust-lang.org/tools/install
 ```
 ```vim
 $curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
-Check installation
+#### Check installation
 ```vim
 $which rustc
 $which cargo
 ```
-Running in Commandline M1
+#### Running Rust File in Commandline
 ```vim
 $rustc test.rs
 $./test
 ```
-Creating new Rust Project
+#### Creating new Rust Project
 ```vim
 $cargo new rust-jwt
 ```
-Creating Rust Binary Program
+#### Creating Rust Binary Program
 ```vim
-$cargo new sample_program --bin
+$cargo new sample_progra --bin
+
+//To Run
+$cargo run --bin server
 ```
-Creating Rust library for Python
+```vim
+#Cargo.toml
+[package]
+name = "rust-grpc-chat-auth"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "server"
+path = "src/server.rs"
+
+[[bin]]
+name ="client"
+path = "src/client.rs"
+```
+#### Creating Rust library for Python
 ```vim
 $cd proj_dir
 $cargo new "library_name" --lib
@@ -42,14 +59,18 @@ edition = "2021"
 [lib]
 name = "calculate_pi"
 create-type = ["cdylib"]
-
-[dependencies]
-version = "0.14.4"
-features = ["extension-module"]
 ```
-Then Run
+#### Clean and Building Rust Project
 ```vim
+$cargo clean
 $cargo build --release
+```
+```vim
+//Build Location
+$cd rust-project/target/debug/rust-project-name
+
+//Execute The Project
+$./rust-project-name
 ```
 ### Reference
 
