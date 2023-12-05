@@ -11,6 +11,7 @@ subtract!();   // ! , macro symbol  //Function Macro
 #[say_number(Four)]
 fn invoke_attr(){}
 
+/** Declarative **/
 macro_rules! times_five {
     ($e:expr) => { 5 * $e }
 }
