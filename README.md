@@ -14,8 +14,12 @@ $which rustc
 $which cargo
 ```
 #### Running Rust File in Commandline
+Optimzed Compilation of Rust file 
 ```vim
-$rustc test.rs
+$rustc -O test.rs
+```
+Run the compiled rust file
+```
 $./test
 ```
 #### Creating new Rust Project
