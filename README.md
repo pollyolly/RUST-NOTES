@@ -14,11 +14,15 @@ $which rustc
 $which cargo
 ```
 #### Running Rust File in Commandline
-Optimzed Compilation of Rust file 
+Run in Debug Mode
+```
+$rustc test.rs
+```
+Compile Rust file 
 ```vim
 $rustc -O test.rs
 ```
-Run the compiled rust file
+Run the Debug or Compiled rust file
 ```
 $./test
 ```
