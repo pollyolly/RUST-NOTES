@@ -92,3 +92,10 @@ $./rust-project-name
 [Rust Async/Await Book](https://rust-lang.github.io/async-book/01_getting_started/01_chapter.html)
 
 [Tokio Runtime](https://tokio.rs/tokio/tutorial)
+
+### Recommended by Lets get rusty
+[Rust by example](https://doc.rust-lang.org/stable/rust-by-example/)
+
+[Rust by Practice](https://practice.course.rs/basic-types/numbers.html)
+
+[Lets Get Rusty](https://learn.letsgetrusty.com/index.html)
