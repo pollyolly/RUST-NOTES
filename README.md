@@ -26,7 +26,8 @@ Run the Debug or Compiled rust file
 ```
 $./test
 ```
-#### Creating new Rust Project
+## Cargo
+#### Creating a Rust Cargo Project
 ```vim
 $cargo new rust-jwt
 ```
