@@ -27,11 +27,11 @@ Run the Debug or Compiled rust file
 $./test
 ```
 ## Cargo
-#### Creating a Rust Cargo Project
+#### Creating Rust Cargo Project
 ```vim
 $cargo new rust-jwt
 ```
-#### Creating Rust Binary Program
+#### Creating Rust Cargo Binary Program
 ```vim
 $cargo new sample_progra --bin
 
@@ -53,7 +53,7 @@ path = "src/server.rs"
 name ="client"
 path = "src/client.rs"
 ```
-#### Creating Rust library for Python
+#### Creating Rust Cargo library for Python
 ```vim
 $cd proj_dir
 $cargo new "library_name" --lib
@@ -69,7 +69,7 @@ edition = "2021"
 name = "calculate_pi"
 create-type = ["cdylib"]
 ```
-#### Clean and Building Rust Project
+#### Cargo Clean and Release Build
 ```vim
 $cargo clean
 $cargo build --release
@@ -81,7 +81,15 @@ $cd rust-project/target/debug/rust-project-name
 //Execute The Project
 $./rust-project-name
 ```
-### Reference
+## Cargo Hot Reload
+```
+$cargo install cargo-watch
+```
+To run
+```
+$cargo watch -x run
+```
+## Reference
 [Shuttle Rs Tutorials](https://docs.shuttle.rs/tutorials/websocket-chat-app-js)
 
 [Rust Lang Nursery](https://rust-lang-nursery.github.io/rust-cookbook/web/clients/requests.html)
