@@ -80,11 +80,11 @@ $cd rust-project/target/debug/rust-project-name
 $./rust-project-name
 ```
 ## Cargo Hot Reload
-```
+```vim
 $cargo install cargo-watch
 ```
 To run
-```
+```vim
 $cargo watch -x run
 ```
 ## Reference
