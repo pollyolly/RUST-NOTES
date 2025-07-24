@@ -1,21 +1,19 @@
 # RUST-NOTES
-
 ## M1 Installation
-### Install
-```vim
+```
 https://www.rust-lang.org/tools/install
 ```
 ```vim
 $curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
-#### Check installation
+#### Check Rust Installation
 ```vim
 $which rustc
 $which cargo
 ```
 #### Running Rust File in Commandline
 Run in Debug Mode
-```
+```vim
 $rustc test.rs
 ```
 Compile Rust file 
@@ -23,7 +21,7 @@ Compile Rust file
 $rustc -O test.rs
 ```
 Run the Debug or Compiled rust file
-```
+```vim
 $./test
 ```
 ## Cargo
