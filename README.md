@@ -16,11 +16,11 @@ Run in Debug Mode
 ```vim
 $rustc test.rs
 ```
-Compile Rust file 
+Optimized Compilation of Rust file 
 ```vim
 $rustc -O test.rs
 ```
-Run the Debug or Compiled rust file
+Run the Debug or Compiled Rust file
 ```vim
 $./test
 ```
@@ -33,7 +33,7 @@ $cargo new rust-jwt
 ```vim
 $cargo new sample_progra --bin
 
-//To Run
+#To Run
 $cargo run --bin server
 ```
 ```vim
