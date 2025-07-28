@@ -91,9 +91,15 @@ $cargo watch -x run
 ```vim
 $cargo remove <library>
 ```
+## Troubleshoot 
 #### Check Redundant Library
+Check the library
 ```vim
 $cargo tree -p <library>
+```
+Check Cargo.lock
+```vim
+$vim Cargo.lock
 ```
 ## Reference
 [Shuttle Rs Tutorials](https://docs.shuttle.rs/tutorials/websocket-chat-app-js)
