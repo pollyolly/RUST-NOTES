@@ -79,7 +79,7 @@ $cd rust-project/target/debug/rust-project-name
 //Execute The Project
 $./rust-project-name
 ```
-## Cargo Hot Reload
+#### Cargo Hot Reload
 ```vim
 $cargo install cargo-watch
 ```
@@ -87,11 +87,14 @@ To run
 ```vim
 $cargo watch -x run
 ```
-## Cargo Remove Library
+#### Remove Library
+```vim
+$cargo remove <library>
+```
+#### Check Redundant Library
 ```vim
 $cargo tree -p <library>
 ```
- 
 ## Reference
 [Shuttle Rs Tutorials](https://docs.shuttle.rs/tutorials/websocket-chat-app-js)
 
