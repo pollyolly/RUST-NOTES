@@ -92,14 +92,18 @@ $cargo watch -x run
 $cargo remove <library>
 ```
 ## Troubleshoot 
-#### Check Redundant Library
-Check the library
+### Fix Ambiguous Library
+Check the library tree
 ```vim
-$cargo tree -p <library>
+$cargo tree -p axum
 ```
-Check Cargo.lock
+Check Cargo.lock to confirm duplicate
 ```vim
 $vim Cargo.lock
+```
+Then Re-add the library specifying the version
+```vim
+ $cargo add axum@0.8.1
 ```
 ## Reference
 [Shuttle Rs Tutorials](https://docs.shuttle.rs/tutorials/websocket-chat-app-js)
