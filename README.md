@@ -87,6 +87,11 @@ To run
 ```vim
 $cargo watch -x run
 ```
+## Cargo Remove Library
+```vim
+$cargo tree -p <library>
+```
+ 
 ## Reference
 [Shuttle Rs Tutorials](https://docs.shuttle.rs/tutorials/websocket-chat-app-js)
 
